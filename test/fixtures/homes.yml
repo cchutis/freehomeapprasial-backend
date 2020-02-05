@@ -1,0 +1,31 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  img: MyString
+  home_type: MyString
+  year_built: 1
+  sqft: 1
+  lot_size: 1
+  stories: 1
+  bedrooms: 1
+  bathrooms: 1
+  street_number: MyString
+  street_address: MyString
+  city: MyString
+  state: MyString
+  zip_code: MyString
+
+two:
+  img: MyString
+  home_type: MyString
+  year_built: 1
+  sqft: 1
+  lot_size: 1
+  stories: 1
+  bedrooms: 1
+  bathrooms: 1
+  street_number: MyString
+  street_address: MyString
+  city: MyString
+  state: MyString
+  zip_code: MyString
