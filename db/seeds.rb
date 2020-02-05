@@ -38,7 +38,7 @@ Estimate.create(
 
 # Seed Home Data
 Home.create(
-    img: "img/swezeytown.png",
+    img: "./img/swezeytown.png",
     home_type: "Single Family",
     year_built: 1984,
     sqft: 3000,
