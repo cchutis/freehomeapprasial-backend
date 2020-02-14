@@ -9,6 +9,17 @@ class CreateHomes < ActiveRecord::Migration[5.2]
       t.integer :stories
       t.integer :bedrooms
       t.integer :bathrooms
+      t.integer :kitchens
+      t.integer :garage
+      t.string :parking
+      t.string :pool
+      t.string :fireplace
+      t.string :ac
+      t.string :heating
+      t.string :washer_dryer
+      t.date :sold_date
+      t.boolean :forclosure
+      t.boolean :short_sale
       t.string :street_number
       t.string :street_address
       t.string :city

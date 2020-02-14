@@ -9,6 +9,17 @@ one:
   stories: 1
   bedrooms: 1
   bathrooms: 1
+  kitchens: 1
+  garage: 1
+  parking: MyString
+  pool: MyString
+  fireplace: MyString
+  ac: MyString
+  heating: MyString
+  washer_dryer: MyString
+  sold_date: 2020-02-14
+  forclosure: false
+  short_sale: false
   street_number: MyString
   street_address: MyString
   city: MyString
@@ -24,6 +35,17 @@ two:
   stories: 1
   bedrooms: 1
   bathrooms: 1
+  kitchens: 1
+  garage: 1
+  parking: MyString
+  pool: MyString
+  fireplace: MyString
+  ac: MyString
+  heating: MyString
+  washer_dryer: MyString
+  sold_date: 2020-02-14
+  forclosure: false
+  short_sale: false
   street_number: MyString
   street_address: MyString
   city: MyString

@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_02_05_212311) do
+ActiveRecord::Schema.define(version: 2020_02_14_190322) do
 
   create_table "estimates", force: :cascade do |t|
     t.string "site_name"
@@ -29,6 +29,17 @@ ActiveRecord::Schema.define(version: 2020_02_05_212311) do
     t.integer "stories"
     t.integer "bedrooms"
     t.integer "bathrooms"
+    t.integer "kitchens"
+    t.integer "garage"
+    t.string "parking"
+    t.string "pool"
+    t.string "fireplace"
+    t.string "ac"
+    t.string "heating"
+    t.string "washer_dryer"
+    t.date "sold_date"
+    t.boolean "forclosure"
+    t.boolean "short_sale"
     t.string "street_number"
     t.string "street_address"
     t.string "city"
