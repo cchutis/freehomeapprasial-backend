@@ -21,19 +21,36 @@ User.create(
 Estimate.create(
     site_name: "Zillow",
     link: "https://www.zillow.com",
-    value: 490000
+    value: 490000,
+    img: "./img/zillow-fit.png"
 )
 # Realtor
 Estimate.create(
     site_name: "Realtor",
     link: "https://www.realtor.com",
-    value: 450000
+    value: 450000,
+    img: "./img/realtor-fit.png"
 )
 # Redfin
 Estimate.create(
     site_name: "Redfin",
     link: "https://www.redfin.com",
-    value: 375000
+    value: 375000,
+    img: "./img/redfin-fit.png"
+)
+# Homes
+Estimate.create(
+    site_name: "Homes",
+    link: "https://www.homes.com",
+    value: 389000,
+    img: "./img/homes-fit.png"
+)
+# trulia
+Estimate.create(
+    site_name: "Trulia",
+    link: "https://www.homes.com",
+    value: 420000,
+    img: "./img/trulia-fit.png"
 )
 
 # Seed Home Data
