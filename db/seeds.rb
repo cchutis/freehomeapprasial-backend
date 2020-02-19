@@ -22,38 +22,44 @@ Estimate.create(
     site_name: "Zillow",
     link: "https://www.zillow.com",
     value: 490000,
-    img: "./img/zillow-fit.png"
+    img: "./img/zillow-fit.png",
+    home_id: 1
 )
 # Realtor
 Estimate.create(
     site_name: "Realtor",
     link: "https://www.realtor.com",
     value: 450000,
-    img: "./img/realtor-fit.png"
+    img: "./img/realtor-fit.png",
+    home_id: 1
 )
 # Redfin
 Estimate.create(
     site_name: "Redfin",
     link: "https://www.redfin.com",
     value: 375000,
-    img: "./img/redfin-fit.png"
+    img: "./img/redfin-fit.png",
+    home_id: 1
 )
 # Homes
 Estimate.create(
     site_name: "Homes",
     link: "https://www.homes.com",
     value: 389000,
-    img: "./img/homes-fit.png"
+    img: "./img/homes-fit.png",
+    home_id: 1
 )
 # trulia
 Estimate.create(
     site_name: "Trulia",
-    link: "https://www.homes.com",
+    link: "https://www.trulia.com",
     value: 420000,
-    img: "./img/trulia-fit.png"
+    img: "./img/trulia-fit.png",
+    home_id: 1
 )
 
 # Seed Home Data
+# 10 North Swezeytown
 Home.create(
     img: "./img/swezeytown.png",
     home_type: "Single Family",
