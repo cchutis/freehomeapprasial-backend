@@ -21,7 +21,7 @@ User.create(
 Estimate.create(
     site_name: "Zillow",
     link: "https://www.zillow.com",
-    value: 490000,
+    value: 354544,
     img: "./img/zillow-fit.png",
     home_id: 1
 )
@@ -29,7 +29,7 @@ Estimate.create(
 Estimate.create(
     site_name: "Realtor",
     link: "https://www.realtor.com",
-    value: 450000,
+    value: 391700,
     img: "./img/realtor-fit.png",
     home_id: 1
 )
@@ -37,7 +37,7 @@ Estimate.create(
 Estimate.create(
     site_name: "Redfin",
     link: "https://www.redfin.com",
-    value: 375000,
+    value: 0,
     img: "./img/redfin-fit.png",
     home_id: 1
 )
@@ -45,7 +45,7 @@ Estimate.create(
 Estimate.create(
     site_name: "Homes",
     link: "https://www.homes.com",
-    value: 389000,
+    value: 384500,
     img: "./img/homes-fit.png",
     home_id: 1
 )
@@ -53,7 +53,7 @@ Estimate.create(
 Estimate.create(
     site_name: "Trulia",
     link: "https://www.trulia.com",
-    value: 420000,
+    value: 354193,
     img: "./img/trulia-fit.png",
     home_id: 1
 )
