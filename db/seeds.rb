@@ -20,7 +20,7 @@ User.create(
 # Zillow
 Estimate.create(
     site_name: "Zillow",
-    link: "https://www.zillow.com",
+    link: "https://www.zillow.com/homes/10-N-Swezeytown-Rd-Middle-Island,-NY,-11953_rb/59322113_zpid/",
     value: 354544,
     img: "./img/zillow-fit.png",
     home_id: 1
@@ -28,7 +28,7 @@ Estimate.create(
 # Realtor
 Estimate.create(
     site_name: "Realtor",
-    link: "https://www.realtor.com",
+    link: "https://www.realtor.com/realestateandhomes-detail/1-N-Swezeytown-Rd_Middle-Island_NY_11953_M35621-44060",
     value: 391700,
     img: "./img/realtor-fit.png",
     home_id: 1
@@ -36,7 +36,7 @@ Estimate.create(
 # Redfin
 Estimate.create(
     site_name: "Redfin",
-    link: "https://www.redfin.com",
+    link: "https://www.redfin.com/NY/Middle-Island/10-N-Swezeytown-Rd-11953/home/21268803",
     value: 0,
     img: "./img/redfin-fit.png",
     home_id: 1
@@ -44,7 +44,7 @@ Estimate.create(
 # Homes
 Estimate.create(
     site_name: "Homes",
-    link: "https://www.homes.com",
+    link: "https://www.homes.com/property/10-n-swezeytown-rd-middle-island-ny-11953/id-400021864374/",
     value: 384500,
     img: "./img/homes-fit.png",
     home_id: 1
@@ -52,7 +52,7 @@ Estimate.create(
 # trulia
 Estimate.create(
     site_name: "Trulia",
-    link: "https://www.trulia.com",
+    link: "https://www.trulia.com/p/ny/middle-island/10-n-swezeytown-rd-middle-island-ny-11953--2089111239",
     value: 354193,
     img: "./img/trulia-fit.png",
     home_id: 1
