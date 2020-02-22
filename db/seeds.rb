@@ -58,6 +58,48 @@ Estimate.create(
     home_id: 1
 )
 
+# House 2
+# Zillow
+Estimate.create(
+    site_name: "Zillow",
+    link: "https://www.zillow.com/homes/38-Highwood-Rd-East-Norwich,-NY,-11732_rb/31162090_zpid/",
+    value: 649407,
+    img: "./img/zillow-fit.png",
+    home_id: 2
+)
+# Realtor
+Estimate.create(
+    site_name: "Realtor",
+    link: "https://www.realtor.com/realestateandhomes-detail/38-Highwood-Rd_East-Norwich_NY_11732_M48535-14102",
+    value: 740200,
+    img: "./img/realtor-fit.png",
+    home_id: 2
+)
+# Redfin
+Estimate.create(
+    site_name: "Redfin",
+    link: "https://www.redfin.com/what-is-my-home-worth?propertyId=20486628",
+    value: 743047,
+    img: "./img/redfin-fit.png",
+    home_id: 2
+)
+# Homes
+Estimate.create(
+    site_name: "Homes",
+    link: "https://www.homes.com/property/38-highwood-rd-east-norwich-ny-11732/id-400020233958/",
+    value: 740000,
+    img: "./img/homes-fit.png",
+    home_id: 2
+)
+# trulia
+Estimate.create(
+    site_name: "Trulia",
+    link: "https://www.trulia.com/p/ny/east-norwich/38-highwood-rd-east-norwich-ny-11732--2010650296",
+    value: 649656,
+    img: "./img/trulia-fit.png",
+    home_id: 2
+)
+
 # Seed Home Data
 # 10 North Swezeytown
 Home.create(
@@ -85,4 +127,32 @@ Home.create(
     city: "Middle Island",
     state: "NY",
     zip_code: "11953"
+)
+
+# 38 Highwood
+Home.create(
+    img: "./img/highwood.png",
+    home_type: "Single Family",
+    year_built: 1956,
+    sqft: 2331,
+    lot_size: 0.5,
+    stories: 1,
+    bedrooms: 4,
+    bathrooms: 3,
+    kitchens: 1,
+    garage: 0,
+    parking: "Driveway",
+    pool: "None",
+    fireplace: "None",
+    ac: "None",
+    heating: "Oil",
+    washer_dryer: "Hookups",
+    sold_date: "1982-11-03",
+    forclosure: false,
+    short_sale: false,
+    street_number: "38",
+    street_address: "Highwood Road",
+    city: "East Norwich",
+    state: "NY",
+    zip_code: "11732"
 )
