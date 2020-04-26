@@ -15,13 +15,16 @@ gem 'puma', '~> 3.11'
 # gem 'redis', '~> 4.0'
 # Use ActiveModel has_secure_password
 gem 'bcrypt', '~> 3.1.7'
-
+gem 'rest-client'
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'
 # gem 'active_model_serializers'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
-
+# Stores API Keys and such to .env
+# gem 'dotenv-rails'
+# Makes Requests to the 3rd party API
+# gem 'faraday'
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.1.0', require: false
 
